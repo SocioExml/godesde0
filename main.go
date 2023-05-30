@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/SocioExml/godesde0/files"
+	"github.com/SocioExml/godesde0/users"
 )
 
 func main() {
@@ -38,6 +38,17 @@ func main() {
 
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//funciones.Calculos()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+
+	//arreglos_slices.Capacidad()
+
+	// mapas.MostrarMapas()
+	users.AltaUsuario()
 
 }
