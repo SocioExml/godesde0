@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/SocioExml/godesde0/ejercicios"
+	"github.com/SocioExml/godesde0/files"
 )
 
 func main() {
@@ -28,7 +26,18 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}*/
 
-	numero, texto := ejercicios.ConvNumerico("500")
+	/*numero, texto := ejercicios.ConvNumerico("500")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	//teclado.IngresoNumeros()
+
+	//iteraciones.Iterar()
+	//fmt.Println(ejercicios.TabladMultiplicar())
+	//files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	files.LeoArchivo()
+
 }
