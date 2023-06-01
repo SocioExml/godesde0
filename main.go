@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/SocioExml/godesde0/users"
+	"fmt"
+
+	g "github.com/SocioExml/godesde0/goroutines"
 )
 
 func main() {
@@ -49,6 +51,17 @@ func main() {
 	//arreglos_slices.Capacidad()
 
 	// mapas.MostrarMapas()
-	users.AltaUsuario()
+	//	users.AltaUsuario()
 
+	/*Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)*/
+
+	go g.MiNombreLentoooo("Edgar Molina")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
