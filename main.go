@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	g "github.com/SocioExml/godesde0/goroutines"
+	g "github.com/SocioExml/godesde0/middleware"
 )
 
 func main() {
@@ -59,9 +57,14 @@ func main() {
 	Maria := new(modelos.Mujer)
 	e.HumanosRespirando(Maria)*/
 
-	go g.MiNombreLentoooo("Edgar Molina")
+	/*
+		canal1 := make(chan bool)
+		go g.MiNombreLentoooo("Edgar Molina", canal1)
+		defer func() {
+			<-canal1
+		}()
+		fmt.Println("Estoy aqui")
+	*/
 
-	fmt.Println("Estoy aqui")
-	var x string
-	fmt.Scanln(&x)
+	g.MiMiddleware()
 }
