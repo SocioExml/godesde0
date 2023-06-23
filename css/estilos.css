@@ -261,3 +261,20 @@ footer .redes-sociales .instagram:hover{ background: #3f729b;}
         width: 46%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    header .contenedor-texto .texto .sistema{
+        font-size: 20px;
+    }
+    
+        header .contenedor-texto .texto .institucion{
+            font-size: 10px;
+    }
+    
+    
+    footer .contacto .contenedor .direccion .telefono .correo .horario{
+        font-size: 2px;
+}
+
+
+}
