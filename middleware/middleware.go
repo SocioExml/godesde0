@@ -31,9 +31,8 @@ func MiMiddleware() {
 func operacionMidd(f func(int, int) int) func(int, int) int {
 
 	return func(a, b int) int {
-		fmt.Println("Inicio de Operación")
+		fmt.Println("Inicio ")
 		return f(a, b)
-
 	}
 
 }
